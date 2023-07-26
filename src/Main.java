@@ -20,9 +20,10 @@ public class Main {
 
         System.out.println();
         System.out.println("Az ötödik feladat megoldása:");
-        int number = 2;
-        int number2 = 2;
+        int number = 14;
+        int number2 = 78;
         System.out.println(number + " + " + number2 + " = " + Calculator.osszeAdas(number, number2));
+        System.out.println(number + " - " + number2 + " = " + Calculator.kivonas(number, number2));
 
         System.out.println();
         System.out.println("A hatodik feladat megoldása:");
@@ -54,11 +55,11 @@ public class Main {
         return false;
     }
 
-    public static int maxnumber(int[] cica) {
-        int seged = cica[1];
-        for (int i = 0; i < cica.length; i++) {
-            if (cica[i] > seged) {
-                seged = cica[i];
+    public static int maxnumber(int[] number) {
+        int seged = number[1];
+        for (int i = 0; i < number.length; i++) {
+            if (number[i] > seged) {
+                seged = number[i];
             }
         }
         return seged;
