@@ -24,6 +24,8 @@ public class Main {
         int number2 = 78;
         System.out.println(number + " + " + number2 + " = " + Calculator.osszeAdas(number, number2));
         System.out.println(number + " - " + number2 + " = " + Calculator.kivonas(number, number2));
+        double result = Calculator.power(2, 3);
+        System.out.println("2^3 = " + result);
 
         System.out.println();
         System.out.println("A hatodik feladat megoldása:");
