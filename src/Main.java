@@ -58,13 +58,13 @@ public class Main {
     }
 
     public static int maxnumber(int[] number) {
-        int seged = number[1];
+        int variable = number[1];
         for (int i = 0; i < number.length; i++) {
-            if (number[i] > seged) {
-                seged = number[i];
+            if (number[i] > variable) {
+                variable = number[i];
             }
         }
-        return seged;
+        return variable;
 
     }
 
